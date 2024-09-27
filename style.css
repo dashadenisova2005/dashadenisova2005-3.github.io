@@ -5,8 +5,8 @@
 }
 body {
     font-family: sans-serif;
-    /* background-size: cover;
-    background-attachment: fixed;  */
+    background-size: cover;
+    background-attachment: fixed; 
     background-image: url("image/1.png");
 }
 
@@ -29,7 +29,7 @@ header .header-container {
         display: flex;
         align-items: center;
         justify-content: left;
-    background-color: #dc8ac5a6;
+    
 }
 .header-menu  {
     width: 100%;
@@ -65,7 +65,7 @@ main form{
     padding: 2dvh;
 }
  .main-content {
-	 width: 100%;
+	width: 100%;
     max-width: 980px;
 	margin: 2dvh;
  }
