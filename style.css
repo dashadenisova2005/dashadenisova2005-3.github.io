@@ -29,7 +29,7 @@ header .header-container {
         display: flex;
         align-items: center;
         justify-content: left;
-    
+    background-color: #dc8ac500;
 }
 .header-menu  {
     width: 100%;
@@ -204,13 +204,13 @@ header .header-container {
 	height: 100px;
 	display: flex;
 	align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header-title {
 	position: absolute;
 	left: 0;
-	width: 100%;
+	width: 400px;
 	display: flex;
 	align-items: center;
 	justify-content: left;
@@ -218,7 +218,7 @@ header .header-container {
 .header-menu  {
 	
 	width: 100%;
-	max-width: 980px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 .header-menu ul{
