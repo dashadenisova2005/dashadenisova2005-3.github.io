@@ -12,8 +12,9 @@ body {
 
 header {
 	width:100%;
-	background-color: #dc8ac5a6;
+	background-color: #dc8ac5;
 	height:150px;
+    padding: 5px;
 }
 header .header-container {
 	position: absolute;
@@ -29,12 +30,12 @@ header .header-container {
         display: flex;
         align-items: center;
         justify-content: left;
-    background-color: #dc8ac500;
+    background-color: #dc8ac5;
 }
 .header-menu  {
     width: 100%;
 	margin: 0 auto;
-    background-color:#c880b2c0; 
+    background-color:#c880b2; 
 }
 .header-menu ul{
 	list-style: none;
@@ -61,7 +62,7 @@ main form{
  .main-back{
     width: 980px;
     margin-top: 15px;
-    background-color: #f9d5f7e0;
+    background-color: #c880b2c0;
     padding: 2dvh;
 }
  .main-content {
@@ -69,8 +70,11 @@ main form{
     max-width: 980px;
 	margin: 2dvh;
  }
+
 table {
+    display: flex;
     border-collapse: collapse;
+    border: 4px double black;
     width: 100%;
     margin: 5dvh 0;
 }
@@ -78,22 +82,23 @@ table {
 th, td {
     border: 1px solid black;
     padding: 8px;
+    width: 960px;
 }
 
-tr.table-header {
-    background-color: rgb(241, 222, 222);
+tr.theader {
+    background-color: #e9a3a3;
 }
 
 tr.r-e{
-    background-color: rgba(249, 172, 172, 0.925);
+    background-color: #ebb6e4e2;
 }
 
 tr.r-o {
-    background-color: rgba(246, 161, 235, 0.926);
+    background-color: #f8c0e5;
 }
 
 tr.last{
-    background-color:rgb(241, 222, 222);
+    background-color:#e9a3a3;
 }
 
 form {
@@ -193,7 +198,7 @@ footer .footer-c {
     
 header {
 	width:100%;
-	background-color: #dc8ac5a6;
+	background-color: #dc8ac5;
 	height:100px;
 }
 
@@ -262,6 +267,7 @@ th, td {
     border: 1px solid black;
     padding: 8px;
 }
+
 
 form {
     display: flex;
